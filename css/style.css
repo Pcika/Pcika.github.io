@@ -1,4 +1,29 @@
+body,html {
+  margin: 0;
+  height: 100%;
+  font-family: "FancyHeartsScript";
+}
+
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+}
+
+.email-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.image-background {
+  background: url("../img/Native.1.jpg");
+  background-size: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+
 }
