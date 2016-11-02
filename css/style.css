@@ -10,6 +10,11 @@ body {
   padding-bottom: 20px;
 }
 
+.landingmovie {
+  width: 100%;
+  min-height: 100%;
+}
+
 .email-form {
   width: 400px;
   margin: 0 auto;
