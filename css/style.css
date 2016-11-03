@@ -15,6 +15,12 @@ body {
   min-height: 100%;
 }
 
+.video-foreground{
+  position: absolute;
+  top: 200px;
+  color: white;
+  
+}
 .email-form {
   width: 400px;
   margin: 0 auto;
