@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Contact</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
+
+
+
   </head>
   <body>
 
@@ -29,32 +33,39 @@
           </div>
         </nav>
 
+      <div class="image-background">
+
         <div class ="container">
           <div class="page-header">
-            <h1>Contact</h1>
+            <h1 style="color: pink">Contact</h1>
         </div>
+
+       <div class="background">
+
 
         <form class="email-form" method="POST"
         action="http://formspree.io/cika.spen@gmail.com">
 
         <div class="form-group">
-          <lable>Return Email</label>
+          <lable style="color:#E81C0C">Return Email</label>
           <input type="email" class="form control" name="_rplyto"
           placehoder="example@gmail.com" />
         </div>
 
         <div class="form-group">
-          <lable>Subject</lable>
+          <lable style="color:#E81C0C">Subject</lable>
           <input type="text" class="form-control" name="_subject"
           placeholder="I Need A Website"/>
         </div>
 
         <div class="form-group">
-          <label>Message</label>
+          <label style="color:#E81C0C">Message</label>
           <textarea class="form-control" rows="4" name="message"></textarea>
         </div>
         <botton type="submit" class="btn btn-primary">Send</botton>
         </div>
+      </div>
+    </div>
       </form>
   </body>
 </html>
