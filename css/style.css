@@ -38,8 +38,8 @@ p {
 
 
 .carousel-inner .item img {
-  height: 300px;
-  width: 300px;
+  height: 100;
+
 }
 
 .carousel-indicators .active{
